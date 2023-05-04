@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,9 +13,30 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="../styles/profile.css">
+
     <title>Git Search - User Profile</title>
   </head>
-  <body>
+  <body class="body__profile">
+    <header class="header-user__container">
+      <div class="div__user">
+        <img class="image__user" src="../img/alert.jpg">
+        <h3 class="name__user">Nome do usuário</h3>
+      </div>
+      <nav class="nav__change-user">
+        <button id="backButton" class="btn__change-user">Trocar de usuário</button>
+      </nav>
+    </header>
+
+    <main class="main-repos__container">
+      <ul class="cards__list">
+        <li class="list__item">
+          <h3 class="repos__title">Título do repositório</h3>
+          <p class="repos__description">Descrição</p>
+          <button class="btn__repos"><a href="" target="_blank"><span>Repositório</span></a></button>
+        </li>
+      </ul>
+    </main>
 
     <script type="module" src="../scripts/profile.js"></script>
   </body>

@@ -1,0 +1,72 @@
+.div__introduction {
+    height: 100%;
+    width: 50%;
+    background-color: var(--color-brand-1);
+}
+
+.section-start__introduction {
+    margin: auto;
+    width: 26rem;
+    margin-top: 12rem;
+    margin-left: 9.438rem;
+}
+
+.introduction__title {
+    font-size: var(--font-4);
+    margin-bottom: 2.313rem;
+}
+
+.introduction__text {
+    font-size: var(--font-1);
+    font-weight: 400;
+}
+
+.div__search {
+    height: 100%;
+    width: 50%; 
+    background-color: var(--color-grey-4);
+}
+
+.section-start__search-user {
+    margin: auto;
+    width: 20rem;
+    margin-top: 13rem;
+    margin-right: 14.5rem;
+
+}
+
+.search-user__title {
+    font-size: var(--font-1);
+    font-weight: 500;
+    margin-bottom: 2.813rem;
+}
+
+.search__text {
+    font-size: var(--font-3);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.input__search-user {
+    background-color: var(--color-grey-1);
+    width: 19.75rem;
+    height: 2.375rem;
+    border-radius: var(--radius-1);
+    color: var(--color-grey-7);
+}
+
+.input__search-user::placeholder {
+    font-size: var(--font-3);
+    padding-left: var(--font-3);
+}
+
+.button__search-user {
+    width: 19.75rem;
+    height: 2.375rem;
+    margin-top: var(--font-1);
+    font-size: var(--font-3);
+    font-weight: 500;
+    color: var(--color-grey-7);
+    background-color: var(--color-brand-2);
+    border-radius: var(--radius-1);
+}
