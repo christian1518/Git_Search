@@ -1,4 +1,3 @@
-// Função para renderizar o atavar e o nome do MediaStreamAudioSourceNode, na pagina showUserProfile.js
 export function renderUser(user) {
     
     const headerContainer = document.querySelector(".header-user__container")
@@ -25,23 +24,17 @@ export function renderUser(user) {
     div.append(image, h3)
     nav.appendChild(button)
     headerContainer.append(div, nav)
-
 }
 
-
-
-// Criando e renderizando os cards de repositório
 export function renderUserRepository(user) {
     const cardRepos = document.querySelector(".cards__list")
     cardRepos.innerHTML = ''
 
     user.repositories.forEach(repo => {
         const card = createCardRepos(repo)
-
         cardRepos.append(card)
     }) 
 }
-
 
 export function createCardRepos(repos) {
     const li = document.createElement("li")
@@ -51,14 +44,12 @@ export function createCardRepos(repos) {
     const anchor = document.createElement("a")
     const span  = document.createElement("span")
 
-
     li.classList.add("list__item")
     h3.classList.add("repos__title")
     p.classList.add("repos__description")
     button.classList.add("btn__repos")
     anchor.classList.add("link__repos")
     span.classList.add("span__repos")
-
 
     h3.innerText = repos.name
     p.innerText = repos.description
@@ -69,7 +60,6 @@ export function createCardRepos(repos) {
     anchor.appendChild(span)
     button.appendChild(anchor)
     li.append(h3, p, button)
-
 
     return li
 }

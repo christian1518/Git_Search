@@ -1,6 +1,5 @@
 import { searchUsers, searchUserRepository, baseUrl } from "./requests.js"
 
-
 function handleSearch() {
     const input = document.querySelector("#search")
     const button = document.querySelector(".button__search-user")

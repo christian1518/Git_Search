@@ -1,8 +1,6 @@
 @import url(reset.css);
 @import url(globalStyles.css);
 
-
-
 .body__profile {
     background-color: var(--color-grey-4);
     color: var(--color-grey-7);
